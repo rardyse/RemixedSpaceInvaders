@@ -1,5 +1,35 @@
 # OOP-26-LunaMirnela
-Object Oriented Programmation Project for the Spring semester at the Université of Fribourg
 
-In construction... 
-With Mirnela
+## ★ Authors
+- Luna Darwich  
+- Mirnela Vejzovic
+
+---
+
+## ★ Course Information
+Object-Oriented Programming  
+Spring Semester 2026  
+University of Fribourg  
+
+---
+
+## ★ Description
+
+This repository contains the work completed throughout the semester.
+
+...  
+
+---
+
+## ★ Contents
+
+- ...
+
+---
+
+## ★ Notes
+
+All files are organized according to the assignment and assistant instructions.  
+External libraries were properly added and required resource folders were configured.
+
+---
