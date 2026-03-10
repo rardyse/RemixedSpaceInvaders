@@ -11,6 +11,8 @@ Object-Oriented Programming
 Spring Semester 2026  
 University of Fribourg  
 
+GROUP 11
+
 ---
 
 ## ★ Description
