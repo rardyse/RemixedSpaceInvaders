@@ -22,16 +22,16 @@ public abstract class Shot extends Sprite {
     }
 
     @Override
-    public void move(String direction){
-        setY(getY() + speed);               //Le shot peut aller qu'en bas sur le joueur
+    public void move(String direction) {
+        if (direction.equals("UP")) {
+            setY(getY() - speed);  //monte
+        } else {
+            setY(getY() + speed);  //descend
+        }
     }
 
     @Override
     public boolean isHit(){
         return false;
     }
-
-    /*@Override
-    public void shoot() {
-    }*/
 }
