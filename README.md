@@ -56,7 +56,6 @@ It includes all exercises, project implementations, and tester classes developed
 
 ### Week 7: to come ....
 
----
 
 ## ★ Notes
 - All files are organized according to the assignment and assistant instructions.  
