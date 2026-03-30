@@ -4,7 +4,6 @@
 - Luna Darwich
 - Mirnela Vejzovic  
 
----
 
 ## ★ Course Information
 Object-Oriented Programming  
@@ -13,13 +12,11 @@ University of Fribourg
 
 GROUP 11
 
----
 
 ## ★ Description
 This repository contains the work completed throughout the semester for the Object-Oriented Programming course.  
 It includes all exercises, project implementations, and tester classes developed step by step.
 
----
 
 ## ★ Contents
 
@@ -57,10 +54,7 @@ It includes all exercises, project implementations, and tester classes developed
 - Implemented generic linked list classes `MyLinkedList`, `Node`, and `Iterator`.  
 - Added methods `add()`, `remove()`, `get()`, `size()` and partially implemented `listIterator()`.  
 
-### Week 7: Shots & Enemy vs Player
-- Separated shots for `Enemy` (`Bomb`) and `Player` (`Bullet`) with distinct sprites.  
-- Focused on testing enemy shots first; player shots prepared for later.  
-- Ensured proper display of enemy shots in tester.  
+### Week 7: to come ....
 
 ---
 
