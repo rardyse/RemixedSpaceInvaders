@@ -18,7 +18,7 @@ public class AlienShip extends Enemy {
     // CONSTRUCTOR
     //////////////////////////////////////////////////////////////////////
     public AlienShip(Point pos) throws IOException {
-        super(ImageIO.read(AlienShip.class.getResource("/enemy.png")),
+        super(ImageIO.read(AlienShip.class.getResource("/resources/enemy.png")),
                 pos, 15, 1);
     }
 

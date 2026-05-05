@@ -15,7 +15,7 @@ public class Bullet extends Shot {
     // CONSTRUCTOR
     //////////////////////////////////////////////////////////////////////
     public Bullet(Point pos, Direction direction) throws IOException {
-        super(ImageIO.read(Bullet.class.getResource("/shotplayer.png")),
+        super(ImageIO.read(Bullet.class.getResource("/resources/shotplayer.png")),
                 pos, direction, 1);
     }
 

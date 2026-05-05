@@ -28,7 +28,7 @@ public class Animation implements Runnable, ActionListener {
         frame.setVisible(true);
 
 
-        // transfère les KeyListeners du board au frame
+        //transfère les KeyListeners du board au frame
         if (display != null) {
             for (KeyListener kl : display.getKeyListeners()) {
                 frame.addKeyListener(kl);

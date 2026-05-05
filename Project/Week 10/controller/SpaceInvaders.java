@@ -1,6 +1,6 @@
 package controller;
 
-import oop.lib.Animation;
+import view.Animation;
 import model.Direction;
 import model.enemy.AlienShip;
 import model.enemy.Enemy;
@@ -57,29 +57,29 @@ public class SpaceInvaders extends Animation {
         board.setFocusable(true);
         setDisplay(board);
 
-        SwingUtilities.invokeLater(() -> {
-            getFrame().addKeyListener(new KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e) {
-                    switch (e.getKeyCode()) {
-                        case KeyEvent.VK_LEFT:
-                            player.move(Direction.LEFT);
-                            break;
-                        case KeyEvent.VK_RIGHT:
-                            player.move(Direction.RIGHT);
-                            break;
-                        case KeyEvent.VK_SPACE:
-                            MyLinkedList<Shot> newShots = player.attack();
-                            if (newShots.size() > 0) {
-                                shots.add(newShots.get(0));}
-                            break;
-                    }
+        KeyAdapter keyAdapter = new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                switch (e.getKeyCode()) {
+                    case KeyEvent.VK_LEFT:
+                        player.move(Direction.LEFT);
+                        break;
+                    case KeyEvent.VK_RIGHT:
+                        player.move(Direction.RIGHT);
+                        break;
+                    case KeyEvent.VK_SPACE:
+                        MyLinkedList<Shot> newShots = player.attack();
+                        if (newShots.size() > 0) {
+                            shots.add(newShots.get(0));
+                        }
+                        break;
                 }
-            });
-            getFrame().requestFocusInWindow();
-        });
-    }
+            }
+        };
 
+        board.addKeyListener(keyAdapter);
+        getFrame().addKeyListener(keyAdapter);
+    }
 
     @Override
     public void step() {

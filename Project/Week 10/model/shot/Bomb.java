@@ -15,7 +15,7 @@ public class Bomb extends Shot {
     // CONSTRUCTOR
     //////////////////////////////////////////////////////////////////////
     public Bomb(Point pos, Direction direction) throws IOException {
-        super(ImageIO.read(Bomb.class.getResource("/shotenemy.png")),
+        super(ImageIO.read(Bomb.class.getResource("/resources/shotenemy.png")),
                 pos, direction, 1);
     }
 

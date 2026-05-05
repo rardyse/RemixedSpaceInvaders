@@ -23,7 +23,7 @@ public class Player extends Sprite implements Hittable, Moveable, Attacker {
     // CONSTRUCTOR
     //////////////////////////////////////////////////////////////////////
     public Player(Point pos) throws IOException {
-        super(ImageIO.read(Player.class.getResource("/player.png")),
+        super(ImageIO.read(Player.class.getResource("/resources/player.png")),
                 pos);
     }
 
