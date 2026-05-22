@@ -1,11 +1,5 @@
 # Remixed Space Invaders
 
-## ★ Course Information
-Object-Oriented Programming  
-Spring Semester 2026  
-University of Fribourg  
-
-
 ## ★ Description
 This repository contains the work completed throughout the semester for the Object-Oriented Programming course.  
 It includes all exercises, project implementations, and tester classes developed step by step.
