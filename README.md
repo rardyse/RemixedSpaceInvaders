@@ -1,4 +1,4 @@
-# OOP-26-LunaMirnela
+# Remixed Space Invaders
 
 ## ★ Authors
 - Luna Darwich
