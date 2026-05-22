@@ -1,16 +1,9 @@
 # Remixed Space Invaders
 
-## ★ Authors
-- Luna Darwich
-- Mirnela Vejzovic  
-
-
 ## ★ Course Information
 Object-Oriented Programming  
 Spring Semester 2026  
 University of Fribourg  
-
-GROUP 11
 
 
 ## ★ Description
